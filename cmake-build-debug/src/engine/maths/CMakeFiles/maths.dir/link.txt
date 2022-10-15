@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libmaths.a CMakeFiles/maths.dir/Matrix4.cpp.obj CMakeFiles/maths.dir/Matrix4Row.cpp.obj CMakeFiles/maths.dir/Quaternion.cpp.obj CMakeFiles/maths.dir/Vector2.cpp.obj CMakeFiles/maths.dir/Vector3.cpp.obj CMakeFiles/maths.dir/Vector4.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libmaths.a

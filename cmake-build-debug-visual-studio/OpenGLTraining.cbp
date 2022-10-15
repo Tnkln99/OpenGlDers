@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLTraining"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\SDL2-2.0.12\;CMake Files\external\glew-2.1.0\;CMake Files\src\;CMake Files\src\engine\;CMake Files\src\engine\maths\;CMake Files\src\engine\input\;CMake Files\src\game\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTraining">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/OpenGLTraining.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 OpenGLTraining"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTraining/fast">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/OpenGLTraining.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 OpenGLTraining/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 package"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 package_source"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/engine.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 engine"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine/fast">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/engine.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 engine/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maths">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/maths/maths.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/maths"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 maths"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maths/fast">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/maths/maths.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/maths"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 maths/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\maths\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/input/input.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/input"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 input"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input/fast">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/input/input.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/engine/input"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 input/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\engine\input\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/game/game.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 game"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/game/game.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tanku/Documents/Projects/OpenGlDers/cmake-build-debug-visual-studio/src/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/include"/>
+					<Add directory="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 game/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\tanku\Documents\Projects\OpenGlDers\cmake-build-debug-visual-studio\src\game\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Assets.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Assets.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Color.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Color.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/ComputeShader.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/ComputeShader.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Log.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Log.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/MeshObject.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/MeshObject.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Shader.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Shader.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Texture.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Texture.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/TextureKtx.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/TextureKtx.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Timer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/Timer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/WindowSdl.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/WindowSdl.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/InputManager.cpp">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/InputManager.h">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/Input_ControllerState.cpp">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/Input_ControllerState.h">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/Input_KeyboardState.cpp">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/Input_KeyboardState.h">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/Input_MouseState.cpp">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/Input_MouseState.h">
+			<Option target="input"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Matrix4.cpp">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Matrix4.h">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Matrix4Row.cpp">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Matrix4Row.h">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Quaternion.cpp">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Quaternion.h">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Vector2.cpp">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Vector2.h">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Vector3.cpp">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Vector3.h">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Vector4.cpp">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/Vector4.h">
+			<Option target="maths"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/CubeMesh.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/CubeMesh.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/CubeObject.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/CubeObject.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Game.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/SceneMain.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/SceneMain.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_001_Color.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_001_Color.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_002_Point.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_002_Point.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_003_Triangle.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_003_Triangle.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_004_PassingData.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_004_PassingData.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_005_Tessellation.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_005_Tessellation.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_006_Fragment.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_006_Fragment.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_007_SpinningCube.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_007_SpinningCube.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_008_SpinningCubes.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_008_SpinningCubes.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_009_TextureAsData.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_009_TextureAsData.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_010_TextureCoordinates.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_010_TextureCoordinates.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_011_MipmapTunnel.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_011_MipmapTunnel.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_012_ArrayTextureAlienRain.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_012_ArrayTextureAlienRain.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_013_InstancedGrassBlades.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_013_InstancedGrassBlades.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_014_IndirectDrawAstroids.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_014_IndirectDrawAstroids.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_015_TessellationModes.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_015_TessellationModes.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_016_TerrainRendering.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_016_TerrainRendering.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_017_CubicBezierPatches.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_017_CubicBezierPatches.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_018_DiscardGeometry.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_018_DiscardGeometry.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_019_ModifyGeometry.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_019_ModifyGeometry.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_020_GenerateGeometry.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_020_GenerateGeometry.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_021_ChangePrimitiveType.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_021_ChangePrimitiveType.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_022_ComputeShaderPrefixSum.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_022_ComputeShaderPrefixSum.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_023_ComputeShaderGrid.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_023_ComputeShaderGrid.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_024_ComputeShaderRaytacing.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_025_ComputeShaderBoids.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Scene_025_ComputeShaderBoids.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Snake.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/Snake.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/main.cpp">
+			<Option target="OpenGLTraining"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/external/SDL2-2.0.12/SDL2Config.cmake">
+			<Option virtualFolder="CMake Files\external\SDL2-2.0.12\"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/external/glew-2.1.0/glew-config.cmake">
+			<Option virtualFolder="CMake Files\external\glew-2.1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\engine\"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/maths/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\engine\maths\"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/engine/input/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\engine\input\"/>
+		</Unit>
+		<Unit filename="C:/Users/tanku/Documents/Projects/OpenGlDers/src/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\game\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
