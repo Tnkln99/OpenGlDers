@@ -20,6 +20,7 @@ private:
     std::vector<CubeObject> body;
     Direction direction = Direction::RIGHT;
     float moveTimer{0};
+    double speed = 0.4f; //decreasing this value will increase the speed
 
     double eatTime;
     bool canEat{true};

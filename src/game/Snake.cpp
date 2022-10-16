@@ -30,7 +30,7 @@ void Snake::eat() {
         CubeObject newTale = body[body.size() - 1];
         body.emplace_back(newTale);
         canEat = false;
-        moveTimer -= 0.02f;
+        speed -= 0.04f;
         eatTime = Timer::getTimeSinceStart();
     }
     else if (Timer::getTimeSinceStart() - eatTime > 5){
@@ -47,7 +47,7 @@ void Snake::update() {
         lastPositions.emplace_back(tmp);
     }
 
-    if(moveTimer > 0.4 && body.size()>1){
+    if(moveTimer > speed && body.size()>1){
         if(lastPositions[0].first > 3.1f || lastPositions[0].first < -3.1f){
             body[0].setPosition(-body[0].getX(), body[0].getY());
         }
