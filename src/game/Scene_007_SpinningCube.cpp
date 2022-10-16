@@ -133,8 +133,9 @@ void Scene_007_SpinningCube::spawnApple() {
     if(apples.size() == 0){
         std::random_device rd;
         std::mt19937 gen(rd());
-        std::uniform_real_distribution<> dist(-2.5f, 2.5f);
+        std::uniform_real_distribution<> distX(-2.5f, 2.5f);
+        std::uniform_real_distribution<> distY(-1.5f, 1.5f);
 
-        apples.emplace_back(dist(gen), dist(gen), cubeMesh, Type::AppleCube);
+        apples.emplace_back(distX(gen), distY(gen), cubeMesh, Type::AppleCube);
     }
 }
